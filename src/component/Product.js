@@ -1,9 +1,9 @@
 function Product(props) {
     const clickCart = () => {
-        alert("Add to Cart")
+        alert(`${props.name} Has been Added to Cart`)
     }
     const clickFave = () => {
-        alert("Add to Favorites")
+        alert(`${props.name} Has been Added to Favorites`)
     }
   return (
     // image, name, description, price

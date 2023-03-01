@@ -41,6 +41,14 @@ function App({ title }) {
   return (
     <div>
       <h1 style={heading}>{title}</h1>
+      <div className="navbar">
+        <ul className="navlist">
+          <li>Home</li>
+          <li>Products</li>
+          <li>FAQ</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
       <div className="App">
         <Product
           img="https://cdn.shopify.com/s/files/1/1622/9929/products/Adidas_Yeezy_Boost_350_Low_Black_V2_Men_s_grande.png?v=1560321730"
@@ -64,15 +72,15 @@ function App({ title }) {
         />
 
         <Product
-          img={logo}
-          name="React logo"
+          img="https://cdn.shopify.com/s/files/1/1622/9929/products/Jordan1RetroLowOGSPTravisScottReverseMochaMen_s.png?v=1658806643"
+          name="Travis jordan 1 'Reverse Mocha'"
           description="Trendy Shoes For Men"
           price="PHP 9000"
         />
 
         <Product
-          img={logo}
-          name="React logo"
+          img="https://www.highsnobiety.com/static-assets/thumbor/JwrzT-LqaGfI0Ms9Do00Rz3q7mQ=/1600x1067/www.highsnobiety.com/static-assets/wp-content/uploads/2021/08/11173016/11.jpg"
+          name="Travis jordan 1 low 'Fragments'"
           description="Trendy Shoes For Men"
           price="PHP 9000"
         />
